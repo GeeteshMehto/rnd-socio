@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://sociogram1.onrender.com/assets/${image}`}
+        src={`https://sociogram1-h4zm.onrender.com/assets/${image}`}
       />
     </Box>
   );
