@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://sociogram1.onrender.com/users/${_id}/${friendId}`,
+      `https://sociogram1-h4zm.onrender.com/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
